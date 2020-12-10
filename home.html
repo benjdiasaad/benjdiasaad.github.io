@@ -1,56 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- Basic -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Benjdia - Home</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
 
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <!-- Mobile Specific Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Load Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,100,300italic,300,100italic,400italic,500,500italic,700,700italic&amp;subset=latin,cyrillic"
+      rel="stylesheet"
+    />
 
-        <title>Portfolio website complete</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
-                <div>
-                    <a href="#" class="nav__logo">Marlon</a>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/glitche-basic.css" />
+    <link rel="stylesheet" href="assets/css/glitche-layout.css" />
+    <link rel="stylesheet" href="assets/css/ionicons.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+
+    <!--[if lt IE 9]>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="centrize full-width">
+        <div class="vertical-center">
+          <div class="pre-inner">
+            <div class="load typing-load"><p>loading...</p></div>
+            <span class="typed-load"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container -->
+    <div class="container">
+      <!-- Header -->
+      <header>
+        <div class="head-top">
+          <a href="#" class="menu-btn"><span></span></a>
+          <div class="top-menu">
+            <ul>
+              <li class="active"><a href="index.html" class="lnk">Home</a></li>
+              <li><a href="resume.html" class="lnk">Resume</a></li>
+              <li><a href="certificat.html" class="lnk">Certificats</a></li>
+              <li><a href="contacts.html" class="btn">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <!-- Wrapper -->
+      <div class="wrapper">
+        <!-- Started -->
+        <div class="section started">
+          <div class="centrize full-width">
+            <div class="vertical-center">
+              <div class="started-content">
+                <div class="h-title glitch-effect" data-text="Hi, I'm Yassine">
+                  Hi, I'm <span>Yassine</span>
                 </div>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
-                    </ul>
+                <div class="h-subtitle typing-subtitle">
+                  <p>Software engineer & Fullstack developper.</p>
+                  <p>Based in Morocco.</p>
                 </div>
+                <span class="typed-subtitle"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
+      <!-- Footer -->
+      <footer>
+        <div class="soc">
+          <a target="_blank" href="https://www.facebook.com/erwinRare/"
+            ><span class="ion ion-social-facebook"></span
+          ></a>
+          <a target="_blank" href="https://github.com/ELATTARIYassine/"
+            ><span class="ion ion-social-github"></span
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/elattari-yassine/"
+            ><span class="ion ion-social-linkedin"></span
+          ></a>
+        </div>
+        <div id="copy"></div>
+        <div class="clr"></div>
+      </footer>
+    </div>
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Saad</span><br> <span class="h-title glitch-effect"> Software engineer </span></h1>
+    <!-- jQuery Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.validate.js"></script>
+    <script src="assets/js/typed.js"></script>
+    <script src="assets/js/magnific-popup.js"></script>
+    <script src="assets/js/masonry.pkgd.js"></script>
+    <script src="assets/js/imagesloaded.pkgd.js"></script>
+    <script src="assets/js/masonry-filter.js"></script>
 
-                </div>
-
-                <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-facebook' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-                </div>
-
-                <div class="home__img">    
-                    <img src="assets/img/perfil.png" alt="">
-                </div>
-            </section>
-
+    <!-- Main Scripts -->
+    <script src="assets/js/glitche-scripts.js"></script>
+    <script>
+      document.getElementById(
+        "copy"
+      ).innerHTML = `© ${new Date().getFullYear()}`;
+    </script>
+  </body>
+</html>
