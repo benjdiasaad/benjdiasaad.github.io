@@ -336,12 +336,14 @@ header .head-top .top-menu ul li.active .btn {
 }
 
 .section.about .image img {
-  width: 100px;
-  height: 100px;
+  width: 102px;
+  height: 104px;
+  margin-left: -16px;
   border-radius: 100px;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   -khtml-border-radius: 100px;
+  margin-top: 3px;
 }
 
 @media (max-width: 600px) {
